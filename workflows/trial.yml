@@ -8,7 +8,7 @@ on:
 jobs:
   e2e-tests:
     name: Trial
-    runs-on: [kubernetes-runners-4xmlp-5mhcg]
+    runs-on: [self-hosted]
 
     steps:
       - name: Checkout Repository
